@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Orangehrmlive1">
+
+    <listeners>
+       <!--> <listener class-name="com.orangelivehrm.utilities.Reporting" /> !-->
+
+    </listeners>
+    <test name="OrangeHrmLive Test">
+        <parameter name="browser" value="chrome" />
+        <classes>
+         <!--   <class name="com.orangelivehrm.testCases.TC_LoginTest_001"/> !-->
+         <!--   <class name="com.orangelivehrm.testCases.TC_LoginDDT_002"/> !-->
+          <!--  <class name="com.orangelivehrm.testCases.TC_addAdmin_Test_003"/> !-->
+            <class name="com.orangelivehrm.testCases.TC_EditAdmin_Test_004"/>
+            <class name="com.orangelivehrm.testCases.TC_DeleteAdmin_Test_005"/>
+            <class name="com.orangelivehrm.testCases.TC_AddEmployee_Test_006"/>
+            <class name="com.orangelivehrm.testCases.TC_EditEmployee_Test_007"/>
+            <class name="com.orangelivehrm.testCases.TC_DeleteEmployee_Test_008"/>
+        </classes>
+    </test>
+</suite>
